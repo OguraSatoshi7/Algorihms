@@ -1,0 +1,14 @@
+Input Declare
+
+var A1=100;
+var A2=90;
+var Grade;
+
+*******************************
+Process
+
+Grade= (A1+A2)/2;
+*******************************
+Output
+
+Print Grade;
