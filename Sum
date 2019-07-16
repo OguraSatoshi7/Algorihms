@@ -1,0 +1,11 @@
+Deaclare/Input
+
+var a;
+var sum = 0;
+
+*********************
+Process
+
+for(a=1;a<11;a++){
+sum=sum+a;}
+alert(sum);
