@@ -1,0 +1,42 @@
+Input/Initialize
+
+var A1=Input;
+var A2=Input;
+var Q=Input;
+var M=Input;
+var F=Input;
+var Ave=A1*0.1+A2*0.1+Q*0.1+M*0.3+F*0.4;
+
+*********************
+Process
+
+if(A1>=60){
+alert ("Assignment1=Approved");
+}else{
+alert("Assignment1=Failed");}
+
+if(A2>=60){
+alert ("Assignment2=Approved");
+}else{
+alert("Assignment2=Failed");}
+
+if(Q>=60){
+alert ("Quiz=Approved");
+}else{
+alert("Quiz=Failed");}
+
+if(M>=60){
+alert ("MidTerm=Approved");
+}else{
+alert("MidTerm=Failed");}
+
+if(F>=60){
+alert ("Final=Approved");
+}else{
+alert("Final=Failed");}
+
+if(Ave>=60){
+alert ("OverAll=Approved");
+}else{
+alert("OverAll=Failed");}
+
