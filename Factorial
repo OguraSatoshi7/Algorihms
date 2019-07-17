@@ -1,6 +1,6 @@
-var i;
-var sum=1;
-for(i=5;i<1;i+=-1){
-sum=sum*i;
+let Sum=1;
+let number;
+for(number=5;number>0;number-=1){
+Sum=Sum*number;
 }
-alert(sum);
+alert(Sum);
