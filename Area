@@ -1,4 +1,4 @@
 let h=Input;
 let w=Input;
-let area=h*w;
+let area=w*h;
 alert(area);
