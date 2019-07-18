@@ -1,0 +1,4 @@
+let h=Input;
+let w=Input;
+let area=w*h/2;
+alert(area);
