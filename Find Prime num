@@ -1,0 +1,36 @@
+let number=1;
+let divisor=2;
+let remainder;
+
+if(number<2){
+print("not prime");
+number+=1;
+Process again
+}
+
+if(number=2){
+print("prime");
+number+=1;
+Process again
+}
+
+if(number>2){
+remainder=number%divisor;
+if(remainder=0){
+print("not prime");
+number+=1;
+divisor=2;
+Process again 
+}
+else{
+divisor+=1;
+if(number=divisor){
+print("prime");
+number+=1;
+divisor=2;
+Process again
+}else{
+Process again
+}
+
+}
